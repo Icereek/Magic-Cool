@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDF467161C0BE345009A5528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF467151C0BE345009A5528 /* main.m */; };
+		DDF467191C0BE345009A5528 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF467181C0BE345009A5528 /* AppDelegate.m */; };
+		DDF4671C1C0BE345009A5528 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF4671B1C0BE345009A5528 /* ViewController.m */; };
+		DDF4671F1C0BE345009A5528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF4671D1C0BE345009A5528 /* Main.storyboard */; };
+		DDF467211C0BE345009A5528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF467201C0BE345009A5528 /* Assets.xcassets */; };
+		DDF467241C0BE346009A5528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF467221C0BE346009A5528 /* LaunchScreen.storyboard */; };
+		DDF4672F1C0BE346009A5528 /* Magic_CoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF4672E1C0BE346009A5528 /* Magic_CoolTests.m */; };
+		DDF4673A1C0BE346009A5528 /* Magic_CoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF467391C0BE346009A5528 /* Magic_CoolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF4672B1C0BE346009A5528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF467091C0BE345009A5528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF467101C0BE345009A5528;
+			remoteInfo = "Magic-Cool";
+		};
+		DDF467361C0BE346009A5528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF467091C0BE345009A5528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF467101C0BE345009A5528;
+			remoteInfo = "Magic-Cool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDF467111C0BE345009A5528 /* Magic-Cool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-Cool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF467151C0BE345009A5528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDF467171C0BE345009A5528 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDF467181C0BE345009A5528 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDF4671A1C0BE345009A5528 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDF4671B1C0BE345009A5528 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDF4671E1C0BE345009A5528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF467201C0BE345009A5528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF467231C0BE346009A5528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF467251C0BE346009A5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF4672A1C0BE346009A5528 /* Magic-CoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic-CoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF4672E1C0BE346009A5528 /* Magic_CoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic_CoolTests.m; sourceTree = "<group>"; };
+		DDF467301C0BE346009A5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF467351C0BE346009A5528 /* Magic-CoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic-CoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF467391C0BE346009A5528 /* Magic_CoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic_CoolUITests.m; sourceTree = "<group>"; };
+		DDF4673B1C0BE346009A5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF4670E1C0BE345009A5528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF467271C0BE346009A5528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF467321C0BE346009A5528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDF467081C0BE345009A5528 = {
+			isa = PBXGroup;
+			children = (
+				DDF467131C0BE345009A5528 /* Magic-Cool */,
+				DDF4672D1C0BE346009A5528 /* Magic-CoolTests */,
+				DDF467381C0BE346009A5528 /* Magic-CoolUITests */,
+				DDF467121C0BE345009A5528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF467121C0BE345009A5528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF467111C0BE345009A5528 /* Magic-Cool.app */,
+				DDF4672A1C0BE346009A5528 /* Magic-CoolTests.xctest */,
+				DDF467351C0BE346009A5528 /* Magic-CoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF467131C0BE345009A5528 /* Magic-Cool */ = {
+			isa = PBXGroup;
+			children = (
+				DDF467171C0BE345009A5528 /* AppDelegate.h */,
+				DDF467181C0BE345009A5528 /* AppDelegate.m */,
+				DDF4671A1C0BE345009A5528 /* ViewController.h */,
+				DDF4671B1C0BE345009A5528 /* ViewController.m */,
+				DDF4671D1C0BE345009A5528 /* Main.storyboard */,
+				DDF467201C0BE345009A5528 /* Assets.xcassets */,
+				DDF467221C0BE346009A5528 /* LaunchScreen.storyboard */,
+				DDF467251C0BE346009A5528 /* Info.plist */,
+				DDF467141C0BE345009A5528 /* Supporting Files */,
+			);
+			path = "Magic-Cool";
+			sourceTree = "<group>";
+		};
+		DDF467141C0BE345009A5528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF467151C0BE345009A5528 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF4672D1C0BE346009A5528 /* Magic-CoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF4672E1C0BE346009A5528 /* Magic_CoolTests.m */,
+				DDF467301C0BE346009A5528 /* Info.plist */,
+			);
+			path = "Magic-CoolTests";
+			sourceTree = "<group>";
+		};
+		DDF467381C0BE346009A5528 /* Magic-CoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF467391C0BE346009A5528 /* Magic_CoolUITests.m */,
+				DDF4673B1C0BE346009A5528 /* Info.plist */,
+			);
+			path = "Magic-CoolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF467101C0BE345009A5528 /* Magic-Cool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF4673E1C0BE346009A5528 /* Build configuration list for PBXNativeTarget "Magic-Cool" */;
+			buildPhases = (
+				DDF4670D1C0BE345009A5528 /* Sources */,
+				DDF4670E1C0BE345009A5528 /* Frameworks */,
+				DDF4670F1C0BE345009A5528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic-Cool";
+			productName = "Magic-Cool";
+			productReference = DDF467111C0BE345009A5528 /* Magic-Cool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF467291C0BE346009A5528 /* Magic-CoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF467411C0BE346009A5528 /* Build configuration list for PBXNativeTarget "Magic-CoolTests" */;
+			buildPhases = (
+				DDF467261C0BE346009A5528 /* Sources */,
+				DDF467271C0BE346009A5528 /* Frameworks */,
+				DDF467281C0BE346009A5528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF4672C1C0BE346009A5528 /* PBXTargetDependency */,
+			);
+			name = "Magic-CoolTests";
+			productName = "Magic-CoolTests";
+			productReference = DDF4672A1C0BE346009A5528 /* Magic-CoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF467341C0BE346009A5528 /* Magic-CoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF467441C0BE346009A5528 /* Build configuration list for PBXNativeTarget "Magic-CoolUITests" */;
+			buildPhases = (
+				DDF467311C0BE346009A5528 /* Sources */,
+				DDF467321C0BE346009A5528 /* Frameworks */,
+				DDF467331C0BE346009A5528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF467371C0BE346009A5528 /* PBXTargetDependency */,
+			);
+			name = "Magic-CoolUITests";
+			productName = "Magic-CoolUITests";
+			productReference = DDF467351C0BE346009A5528 /* Magic-CoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF467091C0BE345009A5528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "斯普瑞恩";
+				TargetAttributes = {
+					DDF467101C0BE345009A5528 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DDF467291C0BE346009A5528 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DDF467101C0BE345009A5528;
+					};
+					DDF467341C0BE346009A5528 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DDF467101C0BE345009A5528;
+					};
+				};
+			};
+			buildConfigurationList = DDF4670C1C0BE345009A5528 /* Build configuration list for PBXProject "Magic-Cool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF467081C0BE345009A5528;
+			productRefGroup = DDF467121C0BE345009A5528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF467101C0BE345009A5528 /* Magic-Cool */,
+				DDF467291C0BE346009A5528 /* Magic-CoolTests */,
+				DDF467341C0BE346009A5528 /* Magic-CoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF4670F1C0BE345009A5528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF467241C0BE346009A5528 /* LaunchScreen.storyboard in Resources */,
+				DDF467211C0BE345009A5528 /* Assets.xcassets in Resources */,
+				DDF4671F1C0BE345009A5528 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF467281C0BE346009A5528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF467331C0BE346009A5528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF4670D1C0BE345009A5528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF4671C1C0BE345009A5528 /* ViewController.m in Sources */,
+				DDF467191C0BE345009A5528 /* AppDelegate.m in Sources */,
+				DDF467161C0BE345009A5528 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF467261C0BE346009A5528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF4672F1C0BE346009A5528 /* Magic_CoolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF467311C0BE346009A5528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF4673A1C0BE346009A5528 /* Magic_CoolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF4672C1C0BE346009A5528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF467101C0BE345009A5528 /* Magic-Cool */;
+			targetProxy = DDF4672B1C0BE346009A5528 /* PBXContainerItemProxy */;
+		};
+		DDF467371C0BE346009A5528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF467101C0BE345009A5528 /* Magic-Cool */;
+			targetProxy = DDF467361C0BE346009A5528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF4671D1C0BE345009A5528 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF4671E1C0BE345009A5528 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF467221C0BE346009A5528 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF467231C0BE346009A5528 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF4673C1C0BE346009A5528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDF4673D1C0BE346009A5528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF4673F1C0BE346009A5528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magic-Cool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spring.Magic-Cool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF467401C0BE346009A5528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magic-Cool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spring.Magic-Cool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDF467421C0BE346009A5528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Magic-CoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spring.Magic-CoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic-Cool.app/Magic-Cool";
+			};
+			name = Debug;
+		};
+		DDF467431C0BE346009A5528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Magic-CoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spring.Magic-CoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic-Cool.app/Magic-Cool";
+			};
+			name = Release;
+		};
+		DDF467451C0BE346009A5528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Magic-CoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spring.Magic-CoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Magic-Cool";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDF467461C0BE346009A5528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Magic-CoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "spring.Magic-CoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Magic-Cool";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF4670C1C0BE345009A5528 /* Build configuration list for PBXProject "Magic-Cool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF4673C1C0BE346009A5528 /* Debug */,
+				DDF4673D1C0BE346009A5528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF4673E1C0BE346009A5528 /* Build configuration list for PBXNativeTarget "Magic-Cool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF4673F1C0BE346009A5528 /* Debug */,
+				DDF467401C0BE346009A5528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDF467411C0BE346009A5528 /* Build configuration list for PBXNativeTarget "Magic-CoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF467421C0BE346009A5528 /* Debug */,
+				DDF467431C0BE346009A5528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDF467441C0BE346009A5528 /* Build configuration list for PBXNativeTarget "Magic-CoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF467451C0BE346009A5528 /* Debug */,
+				DDF467461C0BE346009A5528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF467091C0BE345009A5528 /* Project object */;
+}
