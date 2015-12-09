@@ -145,36 +145,105 @@
     UIButton *btn = [self.view viewWithTag:button.tag];
     //表情制作
     if (btn.tag == 100) {
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.2f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x - 15, btn.frame.origin.y - 15, 120, 120);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+        }];
         
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x + 15, btn.frame.origin.y + 15, 90, 90);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+            
+        }];
     }
     //素材库
     else if (btn.tag == 200)
     {
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.2f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x - 15, btn.frame.origin.y - 15, 120, 120);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+        }];
         
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x + 15, btn.frame.origin.y + 15, 90, 90);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+           
+            
+        }];
     }
     //达人酷
     else if (btn.tag == 300)
     {
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.2f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x - 15, btn.frame.origin.y - 15, 120, 120);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+        }];
         
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x + 15, btn.frame.origin.y + 15, 90, 90);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+            
+            
+        }];
     }
     //我的表情
     else if (btn.tag == 400)
     {
-        MyExpViewController *MyExp = [MyExpViewController alloc];
-        [self.navigationController pushViewController:MyExp animated:YES];
+        
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.2f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x - 15, btn.frame.origin.y - 15, 120, 120);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+        }];
+        
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x + 15, btn.frame.origin.y + 15, 90, 90);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+            MyExpViewController *MyExp = [MyExpViewController alloc];
+            [self.navigationController pushViewController:MyExp animated:YES];
+        }];
     }
     //排行榜
     else if (btn.tag == 500)
     {
-        ChartViewController *Chart = [ChartViewController alloc];
-        [self.navigationController pushViewController:Chart animated:YES];
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.2f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        btn.frame = CGRectMake(btn.frame.origin.x - 15, btn.frame.origin.y - 15, 120, 120);
+        btn.center = CGPointMake(btn.center.x, btn.center.y);
+    } completion:^(BOOL finished) {
+    }];
+        
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x + 15, btn.frame.origin.y + 15, 90, 90);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+            ChartViewController *Chart = [ChartViewController alloc];
+            [self.navigationController pushViewController:Chart animated:YES];
+        }];
     }
     //其他
     else if (btn.tag == 600)
     {
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-        OtherTableViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"other"];
-        [self.navigationController pushViewController:vc animated:YES];
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.2f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x - 15, btn.frame.origin.y - 15, 120, 120);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+        }];
+        
+        [UIView animateWithDuration:0.7f delay:0.0f usingSpringWithDamping:0.8f initialSpringVelocity:0.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+            btn.frame = CGRectMake(btn.frame.origin.x + 15, btn.frame.origin.y + 15, 90, 90);
+            btn.center = CGPointMake(btn.center.x, btn.center.y);
+        } completion:^(BOOL finished) {
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            OtherTableViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"other"];
+            [self.navigationController pushViewController:vc animated:YES];
+        }];
     }
 }
 
