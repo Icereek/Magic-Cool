@@ -172,7 +172,7 @@
             btn.center = CGPointMake(btn.center.x, btn.center.y);
         } completion:^(BOOL finished) {
            
-            
+            NSLog(@"f11111");
         }];
     }
     //达人酷
