@@ -16,6 +16,7 @@
 #import "FindBackView.h"
 #import "LoginView.h"
 #import "RegistView.h"
+#import "MatirialViewController.h"
 @interface ViewController ()
 {
     float _functionButtonX;
@@ -150,7 +151,8 @@
     //素材库
     else if (btn.tag == 200)
     {
-        
+        MatirialViewController *Matirial = [MatirialViewController alloc];
+        [self.navigationController pushViewController:Matirial animated:YES];
     }
     //达人酷
     else if (btn.tag == 300)

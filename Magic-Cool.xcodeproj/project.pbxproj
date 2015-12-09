@@ -10,6 +10,9 @@
 		DD0250771C0D9B8800E7A9BA /* OtherTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0250761C0D9B8800E7A9BA /* OtherTableViewController.m */; };
 		DD0250B91C0DB3C200E7A9BA /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0250B81C0DB3C200E7A9BA /* AboutViewController.m */; };
 		DD0250BC1C0DB40700E7A9BA /* AnnounceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0250BB1C0DB40700E7A9BA /* AnnounceViewController.m */; };
+		DDEB0A1A1C17C7F80074ACF0 /* WJItemsControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB0A191C17C7F80074ACF0 /* WJItemsControlView.m */; };
+		DDEB0A1D1C17C8190074ACF0 /* MatirialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB0A1C1C17C8190074ACF0 /* MatirialViewController.m */; };
+		DDEB0A201C17C8770074ACF0 /* MatirialCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB0A1F1C17C8770074ACF0 /* MatirialCollectionViewCell.m */; };
 		DDED0FC91C1558A60029EA40 /* FindBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED0FC41C1558A60029EA40 /* FindBackView.m */; };
 		DDED0FCA1C1558A60029EA40 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED0FC61C1558A60029EA40 /* LoginView.m */; };
 		DDED0FCB1C1558A60029EA40 /* RegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED0FC81C1558A60029EA40 /* RegistView.m */; };
@@ -52,6 +55,12 @@
 		DD0250B81C0DB3C200E7A9BA /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		DD0250BA1C0DB40700E7A9BA /* AnnounceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnounceViewController.h; sourceTree = "<group>"; };
 		DD0250BB1C0DB40700E7A9BA /* AnnounceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnounceViewController.m; sourceTree = "<group>"; };
+		DDEB0A181C17C7F80074ACF0 /* WJItemsControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJItemsControlView.h; sourceTree = "<group>"; };
+		DDEB0A191C17C7F80074ACF0 /* WJItemsControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJItemsControlView.m; sourceTree = "<group>"; };
+		DDEB0A1B1C17C8190074ACF0 /* MatirialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatirialViewController.h; sourceTree = "<group>"; };
+		DDEB0A1C1C17C8190074ACF0 /* MatirialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatirialViewController.m; sourceTree = "<group>"; };
+		DDEB0A1E1C17C8770074ACF0 /* MatirialCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatirialCollectionViewCell.h; sourceTree = "<group>"; };
+		DDEB0A1F1C17C8770074ACF0 /* MatirialCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatirialCollectionViewCell.m; sourceTree = "<group>"; };
 		DDED0FC31C1558A60029EA40 /* FindBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindBackView.h; sourceTree = "<group>"; };
 		DDED0FC41C1558A60029EA40 /* FindBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindBackView.m; sourceTree = "<group>"; };
 		DDED0FC51C1558A60029EA40 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
@@ -112,6 +121,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDEB0A171C17C7E10074ACF0 /* 三方 */ = {
+			isa = PBXGroup;
+			children = (
+				DDEB0A181C17C7F80074ACF0 /* WJItemsControlView.h */,
+				DDEB0A191C17C7F80074ACF0 /* WJItemsControlView.m */,
+			);
+			name = "三方";
+			sourceTree = "<group>";
+		};
+		DDEB0A211C17CEBC0074ACF0 /* 我的收藏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "我的收藏";
+			sourceTree = "<group>";
+		};
+		DDEB0A221C17CECF0074ACF0 /* 搜索界面 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "搜索界面";
+			sourceTree = "<group>";
+		};
 		DDF1C7791C0E954E002752DE /* 功能中心 */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +178,7 @@
 		DDF467131C0BE345009A5528 /* Magic-Cool */ = {
 			isa = PBXGroup;
 			children = (
+				DDEB0A171C17C7E10074ACF0 /* 三方 */,
 				DDF467531C0BFD08009A5528 /* Utility */,
 				DDF467521C0BFCE0009A5528 /*  Model */,
 				DDF467471C0BF5E8009A5528 /* Controller */,
@@ -239,6 +272,12 @@
 		DDF4675F1C0C4809009A5528 /* 素材库 */ = {
 			isa = PBXGroup;
 			children = (
+				DDEB0A221C17CECF0074ACF0 /* 搜索界面 */,
+				DDEB0A211C17CEBC0074ACF0 /* 我的收藏 */,
+				DDEB0A1B1C17C8190074ACF0 /* MatirialViewController.h */,
+				DDEB0A1C1C17C8190074ACF0 /* MatirialViewController.m */,
+				DDEB0A1E1C17C8770074ACF0 /* MatirialCollectionViewCell.h */,
+				DDEB0A1F1C17C8770074ACF0 /* MatirialCollectionViewCell.m */,
 			);
 			name = "素材库";
 			sourceTree = "<group>";
@@ -420,13 +459,16 @@
 				DDF1C77F1C0EC03A002752DE /* ChartViewController.m in Sources */,
 				DDF4671C1C0BE345009A5528 /* ViewController.m in Sources */,
 				DDF467511C0BF6E1009A5528 /* ExpFunctionButton.m in Sources */,
+				DDEB0A1D1C17C8190074ACF0 /* MatirialViewController.m in Sources */,
 				DDF467191C0BE345009A5528 /* AppDelegate.m in Sources */,
 				DDED0FC91C1558A60029EA40 /* FindBackView.m in Sources */,
 				DDF467161C0BE345009A5528 /* main.m in Sources */,
 				DDF1C77C1C0E95BA002752DE /* MyExpViewController.m in Sources */,
 				DD0250BC1C0DB40700E7A9BA /* AnnounceViewController.m in Sources */,
+				DDEB0A201C17C8770074ACF0 /* MatirialCollectionViewCell.m in Sources */,
 				DDED0FCB1C1558A60029EA40 /* RegistView.m in Sources */,
 				DD0250771C0D9B8800E7A9BA /* OtherTableViewController.m in Sources */,
+				DDEB0A1A1C17C7F80074ACF0 /* WJItemsControlView.m in Sources */,
 				DDED0FCA1C1558A60029EA40 /* LoginView.m in Sources */,
 				DDF1C7851C0EDB41002752DE /* AreaTableViewController.m in Sources */,
 			);
